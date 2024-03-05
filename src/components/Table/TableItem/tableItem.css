@@ -1,0 +1,18 @@
+.item {
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 1px solid #2f251b;
+}
+
+.item .itemText {
+    color: #fff;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 481px) {
+    .item {
+        padding: 13px;
+    }
+}

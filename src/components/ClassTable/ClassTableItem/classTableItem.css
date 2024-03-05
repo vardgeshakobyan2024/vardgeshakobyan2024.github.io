@@ -1,0 +1,13 @@
+section .section .sectTable .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+
+.item .number {
+    padding: 15px 25px;
+    border: 1px solid #2b293c;
+    border-radius: 8px;
+    margin-right: 20px;
+}

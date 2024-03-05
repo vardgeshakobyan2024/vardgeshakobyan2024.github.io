@@ -1,0 +1,12 @@
+.tableSite {
+    position: absolute;
+    width: 320px;
+    border: 1px solid #2f251b;
+    bottom: 5px;
+}
+
+@media only screen and (max-width: 340px) {
+    .tableSite {
+        width: 86%;
+    }
+}

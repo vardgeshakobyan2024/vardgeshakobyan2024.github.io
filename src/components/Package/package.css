@@ -1,0 +1,40 @@
+section .packageParent h4 {
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+section .packageParent .package {
+  padding: 20px;
+}
+
+.swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background: #ff1166;
+}
+
+
+
+@media only screen and (max-width: 481px) {
+    section .packageParent h4 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+  .swiper {
+    width: 90%;
+  }
+}
