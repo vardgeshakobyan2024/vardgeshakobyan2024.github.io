@@ -8,10 +8,9 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const ImagesSlider = () => {
     const imagesArr = [
-      "https://scontent.fevn9-1.fna.fbcdn.net/v/t39.30808-6/325609470_510956964469681_7651072959295625087_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=2qN-oacnWQkAX-sC5b7&_nc_ht=scontent.fevn9-1.fna&oh=00_AfD3NJegwZMKTdb7gRIYPPH4CnF16erOGpuAb24nF_bmjQ&oe=65E57CAA",
-      "https://scontent.fevn9-1.fna.fbcdn.net/v/t39.30808-6/325588853_1613814892399625_5490278931059284768_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=IKypy2en9LAAX84DxRP&_nc_ht=scontent.fevn9-1.fna&oh=00_AfBtwX1z_333cMC5YplWMdzTldR78sqVaIDt2P2w9JgnJg&oe=65E64F13",
-      "https://scontent.fevn9-1.fna.fbcdn.net/v/t39.30808-6/312854212_525403176266042_8821968554750688835_n.jpg?stp=cp6_dst-jpg&_nc_cat=104&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=O_IY5jo82bAAX_Kf-QW&_nc_ht=scontent.fevn9-1.fna&oh=00_AfCWNHqqQUFTABGHu1C0GFcpm_760XBmE8f240Wj-1PSWw&oe=65E5A372",
-      "https://scontent.fevn9-1.fna.fbcdn.net/v/t39.30808-6/312823288_525403159599377_3693668841535388560_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=uALJ-YZEt44AX-D7wx7&_nc_ht=scontent.fevn9-1.fna&oh=00_AfAui1gzhqFaAnR0xyDe0oyA868vNq0VXxl7Bb7zwNg3MQ&oe=65E4DFAD"
+      "https://scontent.fevn1-3.fna.fbcdn.net/v/t39.30808-6/325588853_1613814892399625_5490278931059284768_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=NGZvrGaA4WAAX8nKZbw&_nc_ht=scontent.fevn1-3.fna&oh=00_AfDbxoaOS4--0brNdk7nLWD1mlvMKnep-LpOU_1eKxNkpg&oe=65EC3DD3",
+      "https://scontent.fevn1-3.fna.fbcdn.net/v/t39.30808-6/325609470_510956964469681_7651072959295625087_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=hvTSAtdSrv8AX8NWnzD&_nc_ht=scontent.fevn1-3.fna&oh=00_AfATTgbhhYV1UJypH-AiTcFFu9Sc1ZlToVRIuwjuPydjvA&oe=65EB6B6A",
+      "https://scontent.fevn1-1.fna.fbcdn.net/v/t39.30808-6/312823288_525403159599377_3693668841535388560_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=vYjUYjtMyZ0AX-z72Ox&_nc_ht=scontent.fevn1-1.fna&oh=00_AfCRQdidwksOZSCkW3rrUhpSeKgtrzDNhrwr3Nk4CVa23w&oe=65ECC8AD"
     ]
     const progressCircle = useRef(null);
     const progressContent = useRef(null);
