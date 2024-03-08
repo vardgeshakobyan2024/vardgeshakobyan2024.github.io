@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.c92c215e.css",
-    "main.js": "/static/js/main.eb73fab1.js",
-    "static/media/hasmikintro.png": "/static/media/hasmikintro.fe0f917f22628294b812.png",
-    "static/media/hasmik1.png": "/static/media/hasmik1.a5bda7d923438c399685.png",
-    "static/media/bg1.jpg": "/static/media/bg1.7c409627b76c89fbab89.jpg",
-    "static/media/call.png": "/static/media/call.c4e4e5016c91f578eaff.png",
-    "static/media/faceicone.png": "/static/media/faceicone.e73bc0176505a69a0c45.png",
-    "index.html": "/index.html",
-    "main.c92c215e.css.map": "/static/css/main.c92c215e.css.map",
-    "main.eb73fab1.js.map": "/static/js/main.eb73fab1.js.map"
+    "main.css": "/jasmine-travel-react/static/css/main.31ab64b3.css",
+    "main.js": "/jasmine-travel-react/static/js/main.434e2484.js",
+    "static/media/hasmikintro.png": "/jasmine-travel-react/static/media/hasmikintro.fe0f917f22628294b812.png",
+    "static/media/hasmik1.png": "/jasmine-travel-react/static/media/hasmik1.a5bda7d923438c399685.png",
+    "static/media/bg1.jpg": "/jasmine-travel-react/static/media/bg1.7c409627b76c89fbab89.jpg",
+    "static/media/call.png": "/jasmine-travel-react/static/media/call.c4e4e5016c91f578eaff.png",
+    "static/media/faceicone.png": "/jasmine-travel-react/static/media/faceicone.e73bc0176505a69a0c45.png",
+    "index.html": "/jasmine-travel-react/index.html",
+    "main.31ab64b3.css.map": "/jasmine-travel-react/static/css/main.31ab64b3.css.map",
+    "main.434e2484.js.map": "/jasmine-travel-react/static/js/main.434e2484.js.map"
   },
   "entrypoints": [
-    "static/css/main.c92c215e.css",
-    "static/js/main.eb73fab1.js"
+    "static/css/main.31ab64b3.css",
+    "static/js/main.434e2484.js"
   ]
 }
