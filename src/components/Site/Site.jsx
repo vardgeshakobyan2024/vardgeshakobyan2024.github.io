@@ -15,7 +15,7 @@ const Site = () => {
             <ClassTable />
             {/* <Package /> */}
             <Card />
-            <ImagesSlider />
+            {/* <ImagesSlider /> */}
             
             <a href="tel:+37499888021" className="call">
                 <img src={callIcon} alt="call"/>

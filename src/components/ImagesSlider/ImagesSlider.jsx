@@ -7,11 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const ImagesSlider = () => {
-    const imagesArr = [
-      "https://scontent.fevn1-3.fna.fbcdn.net/v/t39.30808-6/325588853_1613814892399625_5490278931059284768_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=NGZvrGaA4WAAX8nKZbw&_nc_ht=scontent.fevn1-3.fna&oh=00_AfDbxoaOS4--0brNdk7nLWD1mlvMKnep-LpOU_1eKxNkpg&oe=65EC3DD3",
-      "https://scontent.fevn1-3.fna.fbcdn.net/v/t39.30808-6/325609470_510956964469681_7651072959295625087_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=hvTSAtdSrv8AX8NWnzD&_nc_ht=scontent.fevn1-3.fna&oh=00_AfATTgbhhYV1UJypH-AiTcFFu9Sc1ZlToVRIuwjuPydjvA&oe=65EB6B6A",
-      "https://scontent.fevn1-1.fna.fbcdn.net/v/t39.30808-6/312823288_525403159599377_3693668841535388560_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=vYjUYjtMyZ0AX-z72Ox&_nc_ht=scontent.fevn1-1.fna&oh=00_AfCRQdidwksOZSCkW3rrUhpSeKgtrzDNhrwr3Nk4CVa23w&oe=65ECC8AD"
-    ]
+    const imagesArr = []
     const progressCircle = useRef(null);
     const progressContent = useRef(null);
     const onAutoplayTimeLeft = (s, time, progress) => {

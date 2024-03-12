@@ -32,7 +32,7 @@ const ClassTable = () => {
                             }
                         </div>
 
-                        <a href="#">միանալ</a>
+                        <a href="#table">միանալ</a>
                     </div>
                 </div>
             </div>

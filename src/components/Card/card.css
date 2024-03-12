@@ -18,3 +18,24 @@
     margin: auto;
     border-radius: 0.5rem;
 }
+
+.cardParent .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardParent .card .table {
+    width: 320px;
+    border: 1px solid #2f251b;
+}
+
+.cardParent .card .table .tableItem {
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 1px solid #2f251b;
+    color: #fff;
+}
